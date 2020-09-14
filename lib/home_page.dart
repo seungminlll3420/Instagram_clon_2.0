@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:instagram_clon_2/feed_page.dart';
+import 'package:instagram_clon_2/constants/screen_size.dart';
+import 'package:instagram_clon_2/screen/feed_screen.dart';
+import 'package:instagram_clon_2/screen/profile_screen.dart';
 
 class HomePage extends StatefulWidget {
   HomePage({
@@ -20,7 +22,7 @@ class _HomePageState extends State<HomePage> {
   ];
   int _selctedIndex = 0;
   static List<Widget> _screens = <Widget>[
-    Feedpage(),
+    FeedScreen(),
     Container(
       color: Colors.blueAccent,
     ),
@@ -30,12 +32,13 @@ class _HomePageState extends State<HomePage> {
     Container(
       color: Colors.deepPurpleAccent,
     ),
-    Container(
-      color: Colors.cyanAccent,
-    ),
+    ProfileScreen()
   ];
   @override
   Widget build(BuildContext context) {
+    if (size == null) {
+      size = MediaQuery.of(context).size;
+    }
     return Scaffold(
       body: IndexedStack(
         index: _selctedIndex,
