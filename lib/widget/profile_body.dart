@@ -32,8 +32,8 @@ class _ProfileBodyState extends State<ProfileBody> {
 
   AnimatedContainer _selectedIndicator() {
     return AnimatedContainer(
-      curve: Curves.easeInOut,
-      duration: Duration(milliseconds: 500),
+      curve: Curves.fastOutSlowIn,
+      duration: Duration(milliseconds: 350),
       alignment: _selectedTab == SelectedTab.left
           ? Alignment.topLeft
           : Alignment.topRight,
@@ -42,9 +42,6 @@ class _ProfileBodyState extends State<ProfileBody> {
         width: size.width / 2,
         height: 2,
       ),
-      onEnd: () {
-        setState(() {});
-      },
     );
   }
 
