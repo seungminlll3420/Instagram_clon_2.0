@@ -2,6 +2,7 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:instagram_clon_2/constants/common_size.dart';
 import 'package:instagram_clon_2/constants/screen_size.dart';
+import 'package:instagram_clon_2/screen/profile_screen.dart';
 import 'package:instagram_clon_2/widget/rounded_avatar.dart';
 
 class ProfileBody extends StatefulWidget {
@@ -14,10 +15,27 @@ class ProfileBody extends StatefulWidget {
 
 enum SelectedTab { left, right }
 
-class _ProfileBodyState extends State<ProfileBody> {
+class _ProfileBodyState extends State<ProfileBody>
+    with SingleTickerProviderStateMixin {
   SelectedTab _selectedTab = SelectedTab.left;
   double _leftImagesPageMargin = 0;
   double _rightImagesPageMargin = size.width;
+  AnimationController _iconanimationController;
+  @override
+  void initState() {
+    _iconanimationController =
+        AnimationController(duration: duration, vsync: this);
+    // TODO: implement initState
+    super.initState();
+  }
+
+  @override
+  void dispose() {
+    _iconanimationController.dispose();
+    // TODO: implement dispose
+    super.dispose();
+  }
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -90,11 +108,18 @@ class _ProfileBodyState extends State<ProfileBody> {
           textAlign: TextAlign.center,
         )),
         IconButton(
-          onPressed: () {
-            widget.onMenuChanged();
-          },
-          icon: Icon(Icons.menu),
-        )
+            onPressed: () {
+              widget.onMenuChanged();
+              setState(() {
+                _iconanimationController.status == AnimationStatus.completed
+                    ? _iconanimationController.reverse()
+                    : _iconanimationController.forward();
+              });
+            },
+            icon: AnimatedIcon(
+              progress: _iconanimationController,
+              icon: AnimatedIcons.menu_close,
+            ))
       ],
     );
   }

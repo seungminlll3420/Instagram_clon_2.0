@@ -2,8 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:instagram_clon_2/constants/screen_size.dart';
 
 import 'package:instagram_clon_2/widget/profile_body.dart';
+import 'package:instagram_clon_2/widget/profile_side_menu.dart';
 
 enum Menustatus { opened, closed }
+const duration = Duration(milliseconds: 500);
 
 class ProfileScreen extends StatefulWidget {
   @override
@@ -11,8 +13,7 @@ class ProfileScreen extends StatefulWidget {
 }
 
 class _ProfileScreenState extends State<ProfileScreen> {
-  final duration = Duration(milliseconds: 500);
-  final double menuwidth = size.width / 2;
+  final double menuwidth = size.width * 2 / 3;
   Menustatus _menustatus = Menustatus.closed;
   double bodyxpos = 0;
   double menuxpos = size.width;
@@ -47,14 +48,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
             duration: duration,
             curve: Curves.fastOutSlowIn,
             transform: Matrix4.translationValues(menuxpos, 0, 0),
-            child: Positioned(
-              top: 0,
-              bottom: 0,
-              width: size.width / 2,
-              child: Container(
-                color: Colors.purple,
-              ),
-            ),
+            child: ProfileSideMenu(menuwidth),
           )
         ]));
   }
