@@ -1,6 +1,8 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:instagram_clon_2/constants/common_size.dart';
 import 'package:instagram_clon_2/constants/screen_size.dart';
+import 'package:instagram_clon_2/widget/rounded_avatar.dart';
 
 class ProfileBody extends StatefulWidget {
   @override
@@ -11,6 +13,8 @@ enum SelectedTab { left, right }
 
 class _ProfileBodyState extends State<ProfileBody> {
   SelectedTab _selectedTab = SelectedTab.left;
+  double _leftImagesPageMargin = 0;
+  double _rightImagesPageMargin = size.width;
   @override
   Widget build(BuildContext context) {
     return Expanded(
@@ -18,6 +22,32 @@ class _ProfileBodyState extends State<ProfileBody> {
         slivers: [
           SliverList(
             delegate: SliverChildListDelegate([
+              Row(
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.all(common_gap),
+                    child: RoundedAvatar(
+                      size: 80,
+                    ),
+                  ),
+                  Expanded(
+                    child: Table(
+                      children: [
+                        TableRow(children: [
+                          _valueText('3'),
+                          _valueText('4'),
+                          _valueText('2'),
+                        ]),
+                        TableRow(children: [
+                          _labelText('Post'),
+                          _labelText('Followers'),
+                          _labelText('Following'),
+                        ])
+                      ],
+                    ),
+                  )
+                ],
+              ),
               _username(),
               _userBio(),
               _editProfileBtn(),
@@ -25,23 +55,25 @@ class _ProfileBodyState extends State<ProfileBody> {
               _selectedIndicator()
             ]),
           ),
+          _imagesPager()
         ],
       ),
     );
   }
 
-  AnimatedContainer _selectedIndicator() {
-    return AnimatedContainer(
-      curve: Curves.fastOutSlowIn,
-      duration: Duration(milliseconds: 350),
-      alignment: _selectedTab == SelectedTab.left
-          ? Alignment.topLeft
-          : Alignment.topRight,
-      child: Container(
-        color: Colors.black87,
-        width: size.width / 2,
-        height: 2,
-      ),
+  Text _valueText(String value) {
+    return Text(
+      value,
+      textAlign: TextAlign.center,
+      style: TextStyle(fontWeight: FontWeight.bold),
+    );
+  }
+
+  Text _labelText(String label) {
+    return Text(
+      label,
+      textAlign: TextAlign.center,
+      style: TextStyle(fontSize: 13, fontWeight: FontWeight.w400),
     );
   }
 
@@ -89,9 +121,7 @@ class _ProfileBodyState extends State<ProfileBody> {
         Expanded(
           child: IconButton(
             onPressed: () {
-              setState(() {
-                _selectedTab = SelectedTab.left;
-              });
+              _tabSelected(SelectedTab.left);
             },
             color: _selectedTab == SelectedTab.left
                 ? Colors.black87
@@ -102,9 +132,7 @@ class _ProfileBodyState extends State<ProfileBody> {
         Expanded(
           child: IconButton(
             onPressed: () {
-              setState(() {
-                _selectedTab = SelectedTab.right;
-              });
+              _tabSelected(SelectedTab.right);
             },
             color: _selectedTab == SelectedTab.left
                 ? Colors.black45
@@ -113,6 +141,71 @@ class _ProfileBodyState extends State<ProfileBody> {
           ),
         ),
       ],
+    );
+  }
+
+  void _tabSelected(SelectedTab selectedTab) {
+    setState(() {
+      switch (selectedTab) {
+        case SelectedTab.left:
+          _rightImagesPageMargin = size.width;
+          _leftImagesPageMargin = 0;
+          _selectedTab = SelectedTab.left;
+          break;
+        case SelectedTab.right:
+          _rightImagesPageMargin = 0;
+          _leftImagesPageMargin = -size.width;
+          _selectedTab = SelectedTab.right;
+          break;
+      }
+    });
+  }
+
+  AnimatedContainer _selectedIndicator() {
+    return AnimatedContainer(
+      curve: Curves.fastOutSlowIn,
+      duration: Duration(milliseconds: 350),
+      alignment: _selectedTab == SelectedTab.left
+          ? Alignment.topLeft
+          : Alignment.topRight,
+      child: Container(
+        color: Colors.black87,
+        width: size.width / 2,
+        height: 2,
+      ),
+    );
+  }
+
+  SliverToBoxAdapter _imagesPager() {
+    return SliverToBoxAdapter(
+        child: Stack(children: [
+      AnimatedContainer(
+        curve: Curves.fastOutSlowIn,
+        duration: Duration(milliseconds: 500),
+        transform: Matrix4.translationValues(_leftImagesPageMargin, 0, 0),
+        child: _images(),
+      ),
+      AnimatedContainer(
+          curve: Curves.fastOutSlowIn,
+          duration: Duration(milliseconds: 500),
+          transform: Matrix4.translationValues(_rightImagesPageMargin, 0, 0),
+          child: _images()),
+    ]));
+  }
+
+  GridView _images() {
+    return GridView.count(
+      crossAxisCount: 3,
+      childAspectRatio: 1,
+      shrinkWrap: true,
+      physics: NeverScrollableScrollPhysics(),
+      children: List.generate(
+        20,
+        (index) => CachedNetworkImage(
+          imageUrl: 'https://picsum.photos/id/$index/100/100',
+          fit: BoxFit.cover,
+        ),
+      ),
     );
   }
 }
