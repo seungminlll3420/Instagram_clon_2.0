@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:instagram_clon_2/constants/common_size.dart';
+import 'package:instagram_clon_2/screen/feed_screen.dart';
 
 class SignUpForm extends StatefulWidget {
   @override
@@ -8,9 +9,11 @@ class SignUpForm extends StatefulWidget {
 
 class _SignUpFormState extends State<SignUpForm> {
   GlobalKey<FormState> _formKey = GlobalKey<FormState>();
+
   TextEditingController _emailController = TextEditingController();
   TextEditingController _pwController = TextEditingController();
   TextEditingController _cpwController = TextEditingController();
+
   @override
   void dispose() {
     _emailController.dispose();
@@ -22,56 +25,83 @@ class _SignUpFormState extends State<SignUpForm> {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.all(common_gap),
-      child: Form(
-        key: _formKey,
-        child: ListView(
-          children: [
-            SizedBox(
-              height: common_l_gap,
-            ),
-            Image.asset('assets/images/insta_text_logo.png'),
-            TextFormField(
-              controller: _emailController,
-              decoration: _textInputDecor('email'),
-              validator: (text) {
-                if (text.isNotEmpty && text.contains('@')) {
-                  return null;
-                } else {
-                  return "이메일을 다시 확인해주세요.";
-                }
-              },
-            ),
-            SizedBox(
-              height: common_xs_gap,
-            ),
-            TextFormField(
-              controller: _pwController,
-              decoration: _textInputDecor('Password'),
-              validator: (text) {
-                if (text.isNotEmpty && text.length > 6) {
-                  return null;
-                } else {
-                  return "비밀번호를 확인해주세요";
-                }
-              },
-            ),
-            SizedBox(
-              height: common_xs_gap,
-            ),
-            TextFormField(
-              controller: _cpwController,
-              decoration: _textInputDecor('Confirm password'),
-              validator: (text) {
-                if (text.isNotEmpty && (text == _cpwController.text)) {
-                  return null;
-                } else {
-                  return "비밀번호가 같지 않습니다. 확인해주세요";
-                }
-              },
-            ),
-          ],
+    return Scaffold(
+      resizeToAvoidBottomInset: true,
+      body: Padding(
+        padding: const EdgeInsets.all(common_gap),
+        child: Form(
+          key: _formKey,
+          child: ListView(
+            children: [
+              SizedBox(
+                height: common_l_gap,
+              ),
+              Image.asset('assets/images/insta_text_logo.png'),
+              TextFormField(
+                controller: _emailController,
+                cursorColor: Colors.black45,
+                decoration: _textInputDecor('email'),
+                validator: (text) {
+                  if (text.isNotEmpty && text.contains('@')) {
+                    return null;
+                  } else {
+                    return "이메일을 다시 확인해주세요.";
+                  }
+                },
+              ),
+              SizedBox(
+                height: common_xs_gap,
+              ),
+              TextFormField(
+                controller: _pwController,
+                cursorColor: Colors.black45,
+                obscureText: true,
+                decoration: _textInputDecor('Password'),
+                validator: (text) {
+                  if (text.isNotEmpty && text.length > 6) {
+                    return null;
+                  } else {
+                    return "비밀번호를 확인해주세요";
+                  }
+                },
+              ),
+              SizedBox(
+                height: common_xs_gap,
+              ),
+              TextFormField(
+                controller: _cpwController,
+                cursorColor: Colors.black45,
+                obscureText: true,
+                decoration: _textInputDecor('Confirm password'),
+                validator: (text) {
+                  if (text.isNotEmpty && (text == _pwController.text)) {
+                    return null;
+                  } else {
+                    return "비밀번호가 같지 않습니다. 확인해주세요";
+                  }
+                },
+              ),
+              SizedBox(
+                height: 100,
+              ),
+              FlatButton(
+                onPressed: () {
+                  if (_formKey.currentState.validate()) {
+                    Navigator.of(context).pushReplacement(MaterialPageRoute(
+                      builder: (context) => FeedScreen(),
+                    ));
+                  }
+                },
+                child: Text(
+                  'Join',
+                  style: TextStyle(color: Colors.white),
+                ),
+                color: Colors.blueAccent,
+                shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(6)),
+              )
+            ],
+          ),
         ),
       ),
     );
@@ -79,11 +109,25 @@ class _SignUpFormState extends State<SignUpForm> {
 
   InputDecoration _textInputDecor(String text) {
     return InputDecoration(
-        filled: true,
-        fillColor: Colors.grey[100],
-        hintText: text,
-        enabledBorder: OutlineInputBorder(
-            borderRadius: BorderRadius.circular(common_s_gap),
-            borderSide: BorderSide(color: Colors.grey[300])));
+      filled: true,
+      fillColor: Colors.grey[100],
+      hintText: text,
+      focusedBorder: _activeInputBorder(),
+      focusedErrorBorder: _activeInputBorder(),
+      errorBorder: _errorInputBorder(),
+      enabledBorder: _errorInputBorder(),
+    );
+  }
+
+  OutlineInputBorder _errorInputBorder() {
+    return OutlineInputBorder(
+        borderRadius: BorderRadius.circular(common_xs_gap),
+        borderSide: BorderSide(color: Colors.redAccent));
+  }
+
+  OutlineInputBorder _activeInputBorder() {
+    return OutlineInputBorder(
+        borderRadius: BorderRadius.circular(common_xs_gap),
+        borderSide: BorderSide(color: Colors.grey[300]));
   }
 }
