@@ -20,45 +20,48 @@ class _SignInFormState extends State<SignInForm> {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.all(common_gap),
-      child: Form(
-        key: _formKey,
-        child: ListView(
-          children: [
-            SizedBox(
-              height: common_l_gap,
-            ),
-            Image.asset('assets/images/insta_text_logo.png'),
-            TextFormField(
-              controller: _emailController,
-              decoration: _textInputDecor('email'),
-              validator: (text) {
-                if (text.isNotEmpty && text.contains('@')) {
-                  return null;
-                } else {
-                  return "이메일을 확인해주세요.";
-                }
-              },
-            ),
-            SizedBox(
-              height: common_xs_gap,
-            ),
-            TextFormField(
-              controller: _pwController,
-              decoration: _textInputDecor('Password'),
-              validator: (text) {
-                if (text.isNotEmpty && text.length > 6) {
-                  return null;
-                } else {
-                  return "비밀번호를 확인해주세요";
-                }
-              },
-            ),
-            SizedBox(
-              height: common_xs_gap,
-            ),
-          ],
+    return Scaffold(
+      resizeToAvoidBottomInset: true,
+      body: Padding(
+        padding: const EdgeInsets.all(common_gap),
+        child: Form(
+          key: _formKey,
+          child: ListView(
+            children: [
+              SizedBox(
+                height: common_l_gap,
+              ),
+              Image.asset('assets/images/insta_text_logo.png'),
+              TextFormField(
+                controller: _emailController,
+                decoration: _textInputDecor('email'),
+                validator: (text) {
+                  if (text.isNotEmpty && text.contains('@')) {
+                    return null;
+                  } else {
+                    return "이메일을 확인해주세요.";
+                  }
+                },
+              ),
+              SizedBox(
+                height: common_xs_gap,
+              ),
+              TextFormField(
+                controller: _pwController,
+                decoration: _textInputDecor('Password'),
+                validator: (text) {
+                  if (text.isNotEmpty && text.length > 6) {
+                    return null;
+                  } else {
+                    return "비밀번호를 확인해주세요";
+                  }
+                },
+              ),
+              SizedBox(
+                height: 800,
+              ),
+            ],
+          ),
         ),
       ),
     );
