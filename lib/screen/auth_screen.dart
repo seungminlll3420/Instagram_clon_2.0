@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:instagram_clon_2/constants/screen_size.dart';
 import 'package:instagram_clon_2/screen/profile_screen.dart';
 import 'package:instagram_clon_2/widget/fade_stack.dart';
 import 'package:instagram_clon_2/widget/sign_in_form.dart';
@@ -14,7 +15,11 @@ class _AuthScreenState extends State<AuthScreen> {
 
   @override
   Widget build(BuildContext context) {
+    if (size == null) {
+      size = MediaQuery.of(context).size;
+    }
     return Scaffold(
+      resizeToAvoidBottomInset: false,
       body: SafeArea(
         child: Stack(
           children: [
