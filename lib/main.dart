@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:instagram_clon_2/home_page.dart';
 import 'package:instagram_clon_2/screen/auth_screen.dart';
+import 'package:instagram_clon_2/screen/feed_screen.dart';
 import 'constants/material_White.dart';
 
 void main() => runApp(MyApp());
