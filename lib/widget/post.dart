@@ -65,7 +65,7 @@ class Post extends StatelessWidget {
       placeholder: (BuildContext context, String url) {
         return MyProgressIndicator(size.width);
       },
-      imageUrl: 'https://picsum.photos/id/$index/2000/2000',
+      imageUrl: 'https://picsum.photos/id/$index/200/200',
       imageBuilder: (BuildContext context, ImageProvider imageProvider) {
         return AspectRatio(
           aspectRatio: 1,
