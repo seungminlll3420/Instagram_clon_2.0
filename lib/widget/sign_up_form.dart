@@ -85,53 +85,65 @@ class _SignUpFormState extends State<SignUpForm> {
               SizedBox(
                 height: common_s_gap,
               ),
-              FlatButton(
-                onPressed: () {
-                  if (_formKey.currentState.validate()) {
-                    Navigator.of(context).pushReplacement(MaterialPageRoute(
-                      builder: (context) => HomePage(),
-                    ));
-                  }
-                },
-                child: Text(
-                  'Join',
-                  style: TextStyle(color: Colors.white),
-                ),
-                color: Colors.blueAccent,
-                shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(6)),
-              ),
+              _submitButton(context),
               SizedBox(
                 height: common_s_gap,
               ),
-              Stack(
-                alignment: Alignment.center,
-                children: <Widget>[
-                  Positioned(
-                    left: 0,
-                    right: 0,
-                    height: 1,
-                    child: Container(
-                      height: 1,
-                      color: Colors.grey[300],
-                    ),
-                  ),
-                  Container(
-                    height: 3,
-                    width: 60,
-                    color: Colors.grey[50],
-                  ),
-                  Text(
-                    'OR',
-                    style: TextStyle(
-                        fontWeight: FontWeight.bold, color: Colors.grey[500]),
-                  )
-                ],
-              ),
+              _orDivider(),
+              FlatButton.icon(
+                  textColor: Colors.blueAccent,
+                  onPressed: () {},
+                  icon: ImageIcon(AssetImage('assets/images/facebook.png')),
+                  label: Text('Login with Facebook')),
             ],
           ),
         ),
       ),
+    );
+  }
+
+  Stack _orDivider() {
+    return Stack(
+      alignment: Alignment.center,
+      children: <Widget>[
+        Positioned(
+          left: 0,
+          right: 0,
+          height: 1,
+          child: Container(
+            height: 1,
+            color: Colors.grey[300],
+          ),
+        ),
+        Container(
+          height: 3,
+          width: 60,
+          color: Colors.grey[50],
+        ),
+        Text(
+          'OR',
+          style:
+              TextStyle(fontWeight: FontWeight.bold, color: Colors.grey[500]),
+        )
+      ],
+    );
+  }
+
+  FlatButton _submitButton(BuildContext context) {
+    return FlatButton(
+      onPressed: () {
+        if (_formKey.currentState.validate()) {
+          Navigator.of(context).pushReplacement(MaterialPageRoute(
+            builder: (context) => HomePage(),
+          ));
+        }
+      },
+      child: Text(
+        'Join',
+        style: TextStyle(color: Colors.white),
+      ),
+      color: Colors.blueAccent,
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(6)),
     );
   }
 
