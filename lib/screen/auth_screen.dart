@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:instagram_clon_2/constants/screen_size.dart';
-import 'package:instagram_clon_2/screen/profile_screen.dart';
+
 import 'package:instagram_clon_2/widget/fade_stack.dart';
-import 'package:instagram_clon_2/widget/sign_in_form.dart';
-import 'package:instagram_clon_2/widget/sign_up_form.dart';
 
 class AuthScreen extends StatefulWidget {
   @override
