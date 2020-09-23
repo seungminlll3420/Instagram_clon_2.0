@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:instagram_clon_2/constants/common_size.dart';
+import 'package:instagram_clon_2/home_page.dart';
 import 'package:instagram_clon_2/screen/feed_screen.dart';
 
 class SignUpForm extends StatefulWidget {
@@ -82,13 +83,13 @@ class _SignUpFormState extends State<SignUpForm> {
                 },
               ),
               SizedBox(
-                height: 100,
+                height: common_s_gap,
               ),
               FlatButton(
                 onPressed: () {
                   if (_formKey.currentState.validate()) {
                     Navigator.of(context).pushReplacement(MaterialPageRoute(
-                      builder: (context) => FeedScreen(),
+                      builder: (context) => HomePage(),
                     ));
                   }
                 },
@@ -99,7 +100,34 @@ class _SignUpFormState extends State<SignUpForm> {
                 color: Colors.blueAccent,
                 shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(6)),
-              )
+              ),
+              SizedBox(
+                height: common_s_gap,
+              ),
+              Stack(
+                alignment: Alignment.center,
+                children: <Widget>[
+                  Positioned(
+                    left: 0,
+                    right: 0,
+                    height: 1,
+                    child: Container(
+                      height: 1,
+                      color: Colors.grey[300],
+                    ),
+                  ),
+                  Container(
+                    height: 3,
+                    width: 60,
+                    color: Colors.grey[50],
+                  ),
+                  Text(
+                    'OR',
+                    style: TextStyle(
+                        fontWeight: FontWeight.bold, color: Colors.grey[500]),
+                  )
+                ],
+              ),
             ],
           ),
         ),
