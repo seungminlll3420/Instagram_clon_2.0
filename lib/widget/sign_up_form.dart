@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:instagram_clon_2/constants/common_size.dart';
 import 'package:instagram_clon_2/home_page.dart';
 import 'package:instagram_clon_2/screen/feed_screen.dart';
+import 'package:instagram_clon_2/widget/or_divider.dart';
 
 class SignUpForm extends StatefulWidget {
   @override
@@ -41,7 +42,7 @@ class _SignUpFormState extends State<SignUpForm> {
               TextFormField(
                 controller: _emailController,
                 cursorColor: Colors.black45,
-                decoration: _textInputDecor('email'),
+                decoration: textInputDecor('email'),
                 validator: (text) {
                   if (text.isNotEmpty && text.contains('@')) {
                     return null;
@@ -57,7 +58,7 @@ class _SignUpFormState extends State<SignUpForm> {
                 controller: _pwController,
                 cursorColor: Colors.black45,
                 obscureText: true,
-                decoration: _textInputDecor('Password'),
+                decoration: textInputDecor('Password'),
                 validator: (text) {
                   if (text.isNotEmpty && text.length > 6) {
                     return null;
@@ -73,7 +74,7 @@ class _SignUpFormState extends State<SignUpForm> {
                 controller: _cpwController,
                 cursorColor: Colors.black45,
                 obscureText: true,
-                decoration: _textInputDecor('Confirm password'),
+                decoration: textInputDecor('Confirm password'),
                 validator: (text) {
                   if (text.isNotEmpty && (text == _pwController.text)) {
                     return null;
@@ -89,7 +90,7 @@ class _SignUpFormState extends State<SignUpForm> {
               SizedBox(
                 height: common_s_gap,
               ),
-              _orDivider(),
+              OrDivider(),
               FlatButton.icon(
                   textColor: Colors.blueAccent,
                   onPressed: () {},
@@ -147,25 +148,25 @@ class _SignUpFormState extends State<SignUpForm> {
     );
   }
 
-  InputDecoration _textInputDecor(String text) {
+  InputDecoration textInputDecor(String text) {
     return InputDecoration(
       filled: true,
       fillColor: Colors.grey[100],
       hintText: text,
-      focusedBorder: _activeInputBorder(),
-      focusedErrorBorder: _activeInputBorder(),
-      errorBorder: _errorInputBorder(),
-      enabledBorder: _errorInputBorder(),
+      focusedBorder: activeInputBorder(),
+      focusedErrorBorder: activeInputBorder(),
+      errorBorder: errorInputBorder(),
+      enabledBorder: activeInputBorder(),
     );
   }
 
-  OutlineInputBorder _errorInputBorder() {
+  OutlineInputBorder errorInputBorder() {
     return OutlineInputBorder(
         borderRadius: BorderRadius.circular(common_xs_gap),
         borderSide: BorderSide(color: Colors.redAccent));
   }
 
-  OutlineInputBorder _activeInputBorder() {
+  OutlineInputBorder activeInputBorder() {
     return OutlineInputBorder(
         borderRadius: BorderRadius.circular(common_xs_gap),
         borderSide: BorderSide(color: Colors.grey[300]));
