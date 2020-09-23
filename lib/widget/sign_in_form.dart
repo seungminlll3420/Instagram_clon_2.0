@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:instagram_clon_2/constants/auth_input_decor.dart';
 import 'package:instagram_clon_2/constants/common_size.dart';
+import 'package:instagram_clon_2/home_page.dart';
+import 'package:instagram_clon_2/widget/or_divider.dart';
 
 class SignInForm extends StatefulWidget {
   @override
@@ -34,12 +37,13 @@ class _SignInFormState extends State<SignInForm> {
               Image.asset('assets/images/insta_text_logo.png'),
               TextFormField(
                 controller: _emailController,
-                decoration: _textInputDecor('email'),
+                cursorColor: Colors.black45,
+                decoration: textInputDecor('email'),
                 validator: (text) {
                   if (text.isNotEmpty && text.contains('@')) {
                     return null;
                   } else {
-                    return "이메일을 확인해주세요.";
+                    return "이메일을 다시 확인해주세요.";
                   }
                 },
               ),
@@ -48,7 +52,9 @@ class _SignInFormState extends State<SignInForm> {
               ),
               TextFormField(
                 controller: _pwController,
-                decoration: _textInputDecor('Password'),
+                cursorColor: Colors.black45,
+                obscureText: true,
+                decoration: textInputDecor('Password'),
                 validator: (text) {
                   if (text.isNotEmpty && text.length > 6) {
                     return null;
@@ -58,8 +64,18 @@ class _SignInFormState extends State<SignInForm> {
                 },
               ),
               SizedBox(
-                height: 800,
+                height: common_s_gap,
               ),
+              _submitButton(context),
+              SizedBox(
+                height: common_s_gap,
+              ),
+              OrDivider(),
+              FlatButton.icon(
+                  textColor: Colors.blueAccent,
+                  onPressed: () {},
+                  icon: ImageIcon(AssetImage('assets/images/facebook.png')),
+                  label: Text('Login with Facebook')),
             ],
           ),
         ),
@@ -67,14 +83,21 @@ class _SignInFormState extends State<SignInForm> {
     );
   }
 
-  InputDecoration _textInputDecor(String text) {
-    return InputDecoration(
-      filled: true,
-      fillColor: Colors.grey[100],
-      hintText: text,
-      enabledBorder: OutlineInputBorder(
-          borderRadius: BorderRadius.circular(common_s_gap),
-          borderSide: BorderSide(color: Colors.grey[300])),
+  FlatButton _submitButton(BuildContext context) {
+    return FlatButton(
+      onPressed: () {
+        if (_formKey.currentState.validate()) {
+          Navigator.of(context).pushReplacement(MaterialPageRoute(
+            builder: (context) => HomePage(),
+          ));
+        }
+      },
+      child: Text(
+        'SignIn',
+        style: TextStyle(color: Colors.white),
+      ),
+      color: Colors.blueAccent,
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(6)),
     );
   }
 }
