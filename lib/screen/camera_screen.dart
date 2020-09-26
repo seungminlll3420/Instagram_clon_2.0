@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:instagram_clon_2/screen/profile_screen.dart';
+import 'package:instagram_clon_2/widget/take_photo.dart';
 
 class CameraScrren extends StatefulWidget {
   @override
@@ -29,9 +30,7 @@ class _CameraScrrenState extends State<CameraScrren> {
           Container(
             color: Colors.amber,
           ),
-          Container(
-            color: Colors.green,
-          ),
+          TakePhoto(),
           Container(
             color: Colors.blue,
           ),
