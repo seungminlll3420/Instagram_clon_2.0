@@ -63,6 +63,15 @@ class _SignInFormState extends State<SignInForm> {
                   }
                 },
               ),
+              FlatButton(
+                  onPressed: () {},
+                  child: Align(
+                    alignment: Alignment.centerRight,
+                    child: Text(
+                      'Forgotten paasword?',
+                      style: TextStyle(color: Colors.blue),
+                    ),
+                  )),
               SizedBox(
                 height: common_s_gap,
               ),
@@ -93,7 +102,7 @@ class _SignInFormState extends State<SignInForm> {
         }
       },
       child: Text(
-        'SignIn',
+        'Sign In',
         style: TextStyle(color: Colors.white),
       ),
       color: Colors.blueAccent,
