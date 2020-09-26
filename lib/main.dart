@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: white),
-      home: AuthScreen(),
+      home: HomePage(),
     );
   }
 }

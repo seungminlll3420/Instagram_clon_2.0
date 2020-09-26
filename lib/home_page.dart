@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:instagram_clon_2/constants/screen_size.dart';
+import 'package:instagram_clon_2/screen/camera_screen.dart';
 import 'package:instagram_clon_2/screen/feed_screen.dart';
 import 'package:instagram_clon_2/screen/profile_screen.dart';
 
@@ -36,6 +37,9 @@ class _HomePageState extends State<HomePage> {
   ];
   @override
   Widget build(BuildContext context) {
+    if (size == null) {
+      size = MediaQuery.of(context).size;
+    }
     return Scaffold(
       body: IndexedStack(
         index: _selctedIndex,
@@ -54,8 +58,18 @@ class _HomePageState extends State<HomePage> {
   }
 
   void _onBtmItemClick(int index) {
-    setState(() {
-      _selctedIndex = index;
-    });
+    switch (index) {
+      case 2:
+        Navigator.of(context).push(MaterialPageRoute(
+          builder: (context) => CameraScrren(),
+        ));
+        break;
+      default:
+        {
+          setState(() {
+            _selctedIndex = index;
+          });
+        }
+    }
   }
 }
