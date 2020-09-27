@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:instagram_clon_2/constants/common_size.dart';
 import 'package:instagram_clon_2/home_page.dart';
-import 'package:instagram_clon_2/screen/feed_screen.dart';
+
 import 'package:instagram_clon_2/widget/or_divider.dart';
 
 class SignUpForm extends StatefulWidget {
