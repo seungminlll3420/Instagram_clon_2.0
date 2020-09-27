@@ -1,8 +1,10 @@
+import 'package:app_settings/app_settings.dart';
 import 'package:flutter/material.dart';
 import 'package:instagram_clon_2/constants/screen_size.dart';
 import 'package:instagram_clon_2/screen/camera_screen.dart';
 import 'package:instagram_clon_2/screen/feed_screen.dart';
 import 'package:instagram_clon_2/screen/profile_screen.dart';
+import 'package:permission_handler/permission_handler.dart';
 
 class HomePage extends StatefulWidget {
   HomePage({
@@ -35,12 +37,14 @@ class _HomePageState extends State<HomePage> {
     ),
     ProfileScreen()
   ];
+  GlobalKey<ScaffoldState> _key = GlobalKey<ScaffoldState>();
   @override
   Widget build(BuildContext context) {
     if (size == null) {
       size = MediaQuery.of(context).size;
     }
     return Scaffold(
+      key: _key,
       body: IndexedStack(
         index: _selctedIndex,
         children: _screens,
@@ -71,9 +75,34 @@ class _HomePageState extends State<HomePage> {
     }
   }
 
-  void _openCamera() {
-    Navigator.of(context).push(MaterialPageRoute(
-      builder: (context) => CameraScrren(),
-    ));
+  void _openCamera() async {
+    if (await chackIfpermissionGranted(context)) {
+      Navigator.of(context).push(MaterialPageRoute(
+        builder: (context) => CameraScrren(),
+      ));
+    } else {
+      SnackBar snackBar = SnackBar(
+        content: Text('카메라와 갤러리, 마이크의 접근 승인을 하지 않으셨습니다.'),
+        action: SnackBarAction(
+            label: 'OK',
+            onPressed: () {
+              _key.currentState.hideCurrentSnackBar();
+              AppSettings.openAppSettings();
+            }),
+      );
+      _key.currentState.showSnackBar(snackBar);
+    }
+  }
+
+  Future<bool> chackIfpermissionGranted(BuildContext context) async {
+    Map<Permission, PermissionStatus> statuses =
+        await [Permission.camera, Permission.microphone].request();
+    bool permitted = true;
+    statuses.forEach((permission, permissionStatus) {
+      if (!permissionStatus.isGranted) {
+        permitted = false;
+      }
+    });
+    return permitted;
   }
 }
