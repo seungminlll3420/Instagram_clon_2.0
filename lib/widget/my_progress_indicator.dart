@@ -4,8 +4,7 @@ class MyProgressIndicator extends StatelessWidget {
   final double containerSize;
   final double progressSize;
 
-  const MyProgressIndicator(this.containerSize,
-      {Key key, this.progressSize = 60})
+  MyProgressIndicator({this.containerSize, Key key, this.progressSize = 60})
       : super(key: key);
 
   @override
