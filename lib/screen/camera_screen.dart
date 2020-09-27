@@ -11,12 +11,6 @@ class _CameraScrrenState extends State<CameraScrren> {
   int _currentIndex = 1;
   PageController _pageController = PageController(initialPage: 1);
   String _title = 'PHOTO';
-  @override
-  void dispose() {
-    // TODO: implement dispose
-    _pageController.dispose();
-    super.dispose();
-  }
 
   @override
   Widget build(BuildContext context) {
