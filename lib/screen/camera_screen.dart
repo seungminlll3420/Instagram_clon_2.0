@@ -1,10 +1,16 @@
 import 'package:flutter/material.dart';
+import 'package:instagram_clon_2/model/camera_state.dart';
 import 'package:instagram_clon_2/screen/profile_screen.dart';
 import 'package:instagram_clon_2/widget/take_photo.dart';
+import 'package:provider/provider.dart';
 
 class CameraScrren extends StatefulWidget {
+  CameraState _cameraState = CameraState();
   @override
-  _CameraScrrenState createState() => _CameraScrrenState();
+  _CameraScrrenState createState() {
+    _cameraState.getReadyToTakePhoto();
+    return _CameraScrrenState();
+  }
 }
 
 class _CameraScrrenState extends State<CameraScrren> {
@@ -14,53 +20,58 @@ class _CameraScrrenState extends State<CameraScrren> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(_title),
-      ),
-      body: PageView(
-        controller: _pageController,
-        children: [
-          Container(
-            color: Colors.amber,
-          ),
-          TakePhoto(),
-          Container(
-            color: Colors.blue,
-          ),
-        ],
-        onPageChanged: (index) {
-          setState(() {
-            switch (index) {
-              case 0:
-                _title = 'GALLERY';
-                break;
-              case 1:
-                _title = 'PHOTO';
-                break;
-              case 2:
-                _title = 'VIDEO';
-                break;
-            }
-            _currentIndex = index;
-          });
-        },
-      ),
-      bottomNavigationBar: BottomNavigationBar(
-          iconSize: 0,
-          selectedLabelStyle: TextStyle(fontWeight: FontWeight.bold),
-          selectedItemColor: Colors.black87,
-          unselectedItemColor: Colors.black54,
-          items: <BottomNavigationBarItem>[
-            BottomNavigationBarItem(
-                icon: Icon(Icons.ac_unit), title: Text('GALLERY')),
-            BottomNavigationBarItem(
-                icon: Icon(Icons.ac_unit), title: Text('PHOTO')),
-            BottomNavigationBarItem(
-                icon: Icon(Icons.ac_unit), title: Text('VIDEO')),
+    return MultiProvider(
+      providers: [
+        ChangeNotifierProvider<CameraState>.value(value: widget._cameraState)
+      ],
+      child: Scaffold(
+        appBar: AppBar(
+          title: Text(_title),
+        ),
+        body: PageView(
+          controller: _pageController,
+          children: [
+            Container(
+              color: Colors.amber,
+            ),
+            TakePhoto(),
+            Container(
+              color: Colors.blue,
+            ),
           ],
-          currentIndex: _currentIndex,
-          onTap: _onItemTabbed),
+          onPageChanged: (index) {
+            setState(() {
+              switch (index) {
+                case 0:
+                  _title = 'GALLERY';
+                  break;
+                case 1:
+                  _title = 'PHOTO';
+                  break;
+                case 2:
+                  _title = 'VIDEO';
+                  break;
+              }
+              _currentIndex = index;
+            });
+          },
+        ),
+        bottomNavigationBar: BottomNavigationBar(
+            iconSize: 0,
+            selectedLabelStyle: TextStyle(fontWeight: FontWeight.bold),
+            selectedItemColor: Colors.black87,
+            unselectedItemColor: Colors.black54,
+            items: <BottomNavigationBarItem>[
+              BottomNavigationBarItem(
+                  icon: Icon(Icons.ac_unit), title: Text('GALLERY')),
+              BottomNavigationBarItem(
+                  icon: Icon(Icons.ac_unit), title: Text('PHOTO')),
+              BottomNavigationBarItem(
+                  icon: Icon(Icons.ac_unit), title: Text('VIDEO')),
+            ],
+            currentIndex: _currentIndex,
+            onTap: _onItemTabbed),
+      ),
     );
   }
 
