@@ -1,7 +1,10 @@
+import 'dart:io';
+
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
 import 'package:instagram_clon_2/constants/screen_size.dart';
 import 'package:instagram_clon_2/model/camera_state.dart';
+import 'package:instagram_clon_2/screen/share_post_screen.dart';
 import 'package:instagram_clon_2/widget/my_progress_indicator.dart';
 import 'package:path/path.dart';
 import 'package:path_provider/path_provider.dart';
@@ -22,7 +25,7 @@ class _TakePhotoState extends State<TakePhoto> {
   @override
   Widget build(BuildContext context) {
     return Consumer<CameraState>(
-      builder: (context, CameraState cameraState, child) {
+      builder: (BuildContext context, CameraState cameraState, Widget child) {
         return Column(
           children: <Widget>[
             Container(
@@ -36,7 +39,7 @@ class _TakePhotoState extends State<TakePhoto> {
             Expanded(
                 child: OutlineButton(
               onPressed: () {
-                _attemptTakePhoto(cameraState);
+                _attemptTakePhoto(cameraState, context);
               },
               shape: CircleBorder(),
               borderSide: BorderSide(width: 10, color: Colors.black12),
@@ -47,13 +50,17 @@ class _TakePhotoState extends State<TakePhoto> {
     );
   }
 
-  void _attemptTakePhoto(CameraState cameraState) async {
+  void _attemptTakePhoto(CameraState cameraState, BuildContext context) async {
     final String timeInMulli = DateTime.now().millisecondsSinceEpoch.toString();
 
     try {
       final path =
           join((await getTemporaryDirectory()).path, '$timeInMulli.png');
       await cameraState.controller.takePicture(path);
+      File imageFile = File(path);
+      Navigator.of(context).push(MaterialPageRoute(
+        builder: (context) => SharePostScreen(imageFile),
+      ));
     } catch (e) {}
   }
 
