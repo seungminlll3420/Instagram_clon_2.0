@@ -1,6 +1,7 @@
 # This is a generated file; do not edit or check into version control.
 app_settings=/Users/seungmin/development/flutter/.pub-cache/hosted/pub.dartlang.org/app_settings-4.0.4/
 camera=/Users/seungmin/development/flutter/.pub-cache/hosted/pub.dartlang.org/camera-0.5.8+7/
+local_image_provider=/Users/seungmin/development/flutter/.pub-cache/hosted/pub.dartlang.org/local_image_provider-2.2.0/
 path_provider=/Users/seungmin/development/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-1.6.18/
 path_provider_linux=/Users/seungmin/development/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_linux-0.0.1+2/
 path_provider_macos=/Users/seungmin/development/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_macos-0.0.4+3/
