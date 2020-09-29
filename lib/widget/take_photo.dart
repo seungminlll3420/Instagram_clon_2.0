@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:instagram_clon_2/constants/screen_size.dart';
 import 'package:instagram_clon_2/model/camera_state.dart';
 import 'package:instagram_clon_2/widget/my_progress_indicator.dart';
+import 'package:path/path.dart';
+import 'package:path_provider/path_provider.dart';
 import 'package:provider/provider.dart';
 
 class TakePhoto extends StatefulWidget {
@@ -33,7 +35,9 @@ class _TakePhotoState extends State<TakePhoto> {
             ),
             Expanded(
                 child: OutlineButton(
-              onPressed: () {},
+              onPressed: () {
+                _attemptTakePhoto(cameraState);
+              },
               shape: CircleBorder(),
               borderSide: BorderSide(width: 10, color: Colors.black12),
             ))
@@ -41,6 +45,16 @@ class _TakePhotoState extends State<TakePhoto> {
         );
       },
     );
+  }
+
+  void _attemptTakePhoto(CameraState cameraState) async {
+    final String timeInMulli = DateTime.now().millisecondsSinceEpoch.toString();
+
+    try {
+      final path =
+          join((await getTemporaryDirectory()).path, '$timeInMulli.png');
+      await cameraState.controller.takePicture(path);
+    } catch (e) {}
   }
 
   Widget _getPreview(CameraState cameraState) {
