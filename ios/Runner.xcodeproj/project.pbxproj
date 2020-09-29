@@ -16,6 +16,20 @@
 		E72B38E6C992DCB7C463DBAC /* Pods_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0656770CB9915BBC2F41071 /* Pods_Runner.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXBuildRule section */
+		562B13A62523A2EE0049EAEA /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = sourcecode.metal;
+			inputFiles = (
+			);
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# metal\n";
+		};
+/* End PBXBuildRule section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		9705A1C41CF9048500538489 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -141,6 +155,7 @@
 				779051FC86A2C004742F1CAB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
+				562B13A62523A2EE0049EAEA /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
