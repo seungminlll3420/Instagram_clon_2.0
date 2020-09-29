@@ -104,7 +104,7 @@ class _ProfileBodyState extends State<ProfileBody>
         ),
         Expanded(
             child: Text(
-          '떡갈나무',
+          '뜨억갈나무',
           textAlign: TextAlign.center,
         )),
         IconButton(

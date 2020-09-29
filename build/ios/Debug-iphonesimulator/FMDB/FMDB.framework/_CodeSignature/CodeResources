@@ -34,7 +34,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		8Kb8wrpUF+OxcKTXG3MyZ7JAOP4=
+		sA8pgiF3j9ftIC6pUnaj3MFRoic=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -45,10 +45,6 @@
 	<dict>
 		<key>Headers/FMDB-umbrella.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			bnKtOwCKrJdH80wCEKUpI4h1uzQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			o0TlxLklhsjsiBp3eZY7n6RbLrbdacfyG7k72S/2JyM=
@@ -56,10 +52,6 @@
 		</dict>
 		<key>Headers/FMDB.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			pMX1XJI7wMyxuYqA9+d9cI8p+3w=
-			</data>
 			<key>hash2</key>
 			<data>
 			zN6LJ1SNyhEgHjQn9KFzMj2mNcnoJOLjjbPr/26D/eE=
@@ -67,10 +59,6 @@
 		</dict>
 		<key>Headers/FMDatabase.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			vDJaynNV1xjr3XP2ELuBq5ZJIzM=
-			</data>
 			<key>hash2</key>
 			<data>
 			Tvz4Jcf7j/lamLTNJ4Q56B2a9eVHAKOLsYVU7A5WQH8=
@@ -78,10 +66,6 @@
 		</dict>
 		<key>Headers/FMDatabaseAdditions.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			oYPJZ2qnL9tDRUFc4njfVpjcG+I=
-			</data>
 			<key>hash2</key>
 			<data>
 			8TZsULb8xEkWsryKGKgfEsIp95WiRwkP2NEL1qIe0zo=
@@ -89,10 +73,6 @@
 		</dict>
 		<key>Headers/FMDatabasePool.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			GRPIlJeLgiYtr0gYrCsERD6Msyo=
-			</data>
 			<key>hash2</key>
 			<data>
 			0dcniSiQZvUaNfubFR3W8NEEGcnSZZeXlJmj46ctQ3I=
@@ -100,10 +80,6 @@
 		</dict>
 		<key>Headers/FMDatabaseQueue.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			z9VmkSmRhTrKVnL4eb1XSOYufSI=
-			</data>
 			<key>hash2</key>
 			<data>
 			sUHAJobiEdcS2YNB8LPtGcEe2XU4JjXq6PYLYYJm1pA=
@@ -111,10 +87,6 @@
 		</dict>
 		<key>Headers/FMResultSet.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ttXlMDDozAXOMnYHKscshFhNl6I=
-			</data>
 			<key>hash2</key>
 			<data>
 			+QNK7GVKITWRQb+zGXFfNL/r6c1QUmhfGA5TyGHkMZg=
@@ -122,10 +94,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			5jDPlRi5mDD+4VdRai2Gr4nQi8s=
-			</data>
 			<key>hash2</key>
 			<data>
 			u5F0/zgUTQy0/fEabfdSLmi7zuzYtaAjFX51+q/ncK0=
