@@ -32,6 +32,7 @@ dependencies:
   camera: ^0.5.8+7
   permission_handler: ^5.0.1+1
   app_settings: ^4.0.4
+  provider: ^4.3.2+2
   
 
 dev_dependencies:
