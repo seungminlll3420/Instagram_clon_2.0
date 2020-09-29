@@ -15,14 +15,12 @@ class TakePhoto extends StatefulWidget {
 class _TakePhotoState extends State<TakePhoto> {
   Widget _progress = MyProgressIndicator();
   CameraController _controller;
-  int cameraindex = 0;
 
   @override
   Widget build(BuildContext context) {
     return FutureBuilder<List<CameraDescription>>(
       future: availableCameras(),
       builder: (context, snapshot) {
-        print(snapshot.data.toString());
         return Column(
           children: <Widget>[
             Container(
@@ -34,15 +32,7 @@ class _TakePhotoState extends State<TakePhoto> {
             ),
             Expanded(
                 child: OutlineButton(
-              onPressed: () {
-                setState(() {
-                  if (cameraindex == 0) {
-                    cameraindex = 1;
-                  } else {
-                    cameraindex = 0;
-                  }
-                });
-              },
+              onPressed: () {},
               shape: CircleBorder(),
               borderSide: BorderSide(width: 10, color: Colors.black12),
             ))
@@ -53,13 +43,23 @@ class _TakePhotoState extends State<TakePhoto> {
   }
 
   Widget _getPreview(List<CameraDescription> camera) {
-    print(camera.toString());
     _controller = CameraController(camera[0], ResolutionPreset.medium);
     return FutureBuilder(
       future: _controller.initialize(),
       builder: (context, snapshot) {
         if (snapshot.connectionState == ConnectionState.done) {
-          return CameraPreview(_controller);
+          return ClipRect(
+            child: OverflowBox(
+              alignment: Alignment.center,
+              child: FittedBox(
+                fit: BoxFit.fitWidth,
+                child: Container(
+                    width: size.width,
+                    height: size.width / _controller.value.aspectRatio,
+                    child: CameraPreview(_controller)),
+              ),
+            ),
+          );
         } else {
           return _progress;
         }
