@@ -6,6 +6,7 @@ import 'package:instagram_clon_2/constants/screen_size.dart';
 import 'package:instagram_clon_2/screen/camera_screen.dart';
 import 'package:instagram_clon_2/screen/feed_screen.dart';
 import 'package:instagram_clon_2/screen/profile_screen.dart';
+import 'package:instagram_clon_2/screen/search_screen.dart';
 import 'package:permission_handler/permission_handler.dart';
 
 class HomePage extends StatefulWidget {
@@ -28,9 +29,7 @@ class _HomePageState extends State<HomePage> {
   int _selctedIndex = 0;
   static List<Widget> _screens = <Widget>[
     FeedScreen(),
-    Container(
-      color: Colors.blueAccent,
-    ),
+    SearchScreen(),
     Container(
       color: Colors.greenAccent,
     ),
