@@ -51,11 +51,11 @@ class _TakePhotoState extends State<TakePhoto> {
   }
 
   void _attemptTakePhoto(CameraState cameraState, BuildContext context) async {
-    final String timeInMulli = DateTime.now().millisecondsSinceEpoch.toString();
+    final String timeInMilli = DateTime.now().millisecondsSinceEpoch.toString();
 
     try {
       final path =
-          join((await getTemporaryDirectory()).path, '$timeInMulli.png');
+          join((await getTemporaryDirectory()).path, '$timeInMilli.png');
       await cameraState.controller.takePicture(path);
       File imageFile = File(path);
       Navigator.of(context).push(MaterialPageRoute(
