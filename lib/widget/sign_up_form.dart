@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:instagram_clon_2/constants/common_size.dart';
 import 'package:instagram_clon_2/home_page.dart';
+import 'package:instagram_clon_2/model/firebase_auth_state.dart';
 
 import 'package:instagram_clon_2/widget/or_divider.dart';
+import 'package:provider/provider.dart';
 
 class SignUpForm extends StatefulWidget {
   @override
@@ -93,7 +95,10 @@ class _SignUpFormState extends State<SignUpForm> {
               OrDivider(),
               FlatButton.icon(
                   textColor: Colors.blueAccent,
-                  onPressed: () {},
+                  onPressed: () {
+                    Provider.of<FirebaseAuthState>(context, listen: false)
+                        .loginWithFacebook(context);
+                  },
                   icon: ImageIcon(AssetImage('assets/images/facebook.png')),
                   label: Text('Login with Facebook')),
             ],
@@ -134,9 +139,10 @@ class _SignUpFormState extends State<SignUpForm> {
     return FlatButton(
       onPressed: () {
         if (_formKey.currentState.validate()) {
-          Navigator.of(context).pushReplacement(MaterialPageRoute(
-            builder: (context) => HomePage(),
-          ));
+          Provider.of<FirebaseAuthState>(context, listen: false).registerUser(
+              context,
+              email: _emailController.text,
+              password: _pwController.text);
         }
       },
       child: Text(
