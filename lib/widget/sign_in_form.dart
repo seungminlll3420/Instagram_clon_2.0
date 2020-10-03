@@ -87,7 +87,10 @@ class _SignInFormState extends State<SignInForm> {
               OrDivider(),
               FlatButton.icon(
                   textColor: Colors.blueAccent,
-                  onPressed: () {},
+                  onPressed: () {
+                    Provider.of<FirebaseAuthState>(context, listen: false)
+                        .loginWithFacebook(context);
+                  },
                   icon: ImageIcon(AssetImage('assets/images/facebook.png')),
                   label: Text('Login with Facebook')),
             ],
