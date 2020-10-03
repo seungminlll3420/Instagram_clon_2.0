@@ -1,28 +1,63 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:1:1-48:12
-INJECTED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:1:1-48:12
-INJECTED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:1:1-48:12
-INJECTED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:1:1-48:12
-MERGED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:1:1-48:12
-MERGED from [:app_settings] /Users/seungmin/Flutter/Instagram_clon_2.0/build/app_settings/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [:permission_handler] /Users/seungmin/Flutter/Instagram_clon_2.0/build/permission_handler/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:1:1-54:12
+INJECTED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:1:1-54:12
+INJECTED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:1:1-54:12
+INJECTED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:1:1-54:12
+MERGED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:1:1-54:12
 MERGED from [:sqflite] /Users/seungmin/Flutter/Instagram_clon_2.0/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_facebook_login] /Users/seungmin/Flutter/Instagram_clon_2.0/build/flutter_facebook_login/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:local_image_provider] /Users/seungmin/Flutter/Instagram_clon_2.0/build/local_image_provider/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:camera] /Users/seungmin/Flutter/Instagram_clon_2.0/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-10:12
 MERGED from [:path_provider] /Users/seungmin/Flutter/Instagram_clon_2.0/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/0986d0d74b8a2c7da8161f6370fc7744/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/28d99d5113324aa067757f8ca41a426f/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/e1bbce6b0d79e8479b70e7bd729bb743/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/615cab8ad6393a9c868d48761bbea666/activity-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.customview:customview:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/ef0bef029ab70f5fb29de019060cf5fd/customview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.1.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/49ede1f7b9aa322a43288e9745adc2db/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/54d8b8735f730e83f07925f758092af3/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/23edc849475fdda61367cb003f9b9f93/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/79f9d65ef8b1c716310f666473a689a7/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/077300052aa327ee6fc9bbb0ce309b24/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/3a7eb299570065a3866b140e1a95969b/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/b80fad55c42c418cc210e235056767fb/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [:permission_handler] /Users/seungmin/Flutter/Instagram_clon_2.0/build/permission_handler/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:firebase_auth] /Users/seungmin/Flutter/Instagram_clon_2.0/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:app_settings] /Users/seungmin/Flutter/Instagram_clon_2.0/build/app_settings/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:firebase_core] /Users/seungmin/Flutter/Instagram_clon_2.0/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/194501719757db75aebc39bae85ac153/jetified-glide-4.9.0/AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.firebase:firebase-auth:19.2.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/1ed960bd305039986d8d57f9511cdda4/jetified-firebase-auth-19.2.0/AndroidManifest.xml:17:1-42:12
+MERGED from [com.facebook.android:facebook-login:5.5.1] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/60a83bfc9f07c4adaebb5a9725db879b/jetified-facebook-login-5.5.1/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-common:5.5.1] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/a778ca015ecbfc96c667ca5b263c3b84/jetified-facebook-common-5.5.1/AndroidManifest.xml:21:1-37:12
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/08a11306907fa84699584020f584a78a/appcompat-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/4ac584c7bc1ce3f4fdd917e8be6a15aa/jetified-firebase-auth-interop-19.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/1af5b6af02d3fca1f2b2724f33c5ae30/jetified-play-services-base-17.1.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/e906d9a56743ff9fbb0d065b4fd9606b/jetified-firebase-common-19.3.0/AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/29202b2c31a2cd79a665408b023447b6/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/3af823cd3e9c0e385f47a93c9432f50e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/dcbb27966fafe932bc15ef71536f7373/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/a4035522ef1679593e6bb97483e4b833/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/f8ddd7d8aed44aacfebf3fc260cd0365/vectordrawable-animated-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.browser:browser:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/888df7f4c1ea6b7a237a9de30197e32e/browser-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/5e721d6076329fe581ac64db530a1288/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/ff5055a7af2f4ea6a34741ea663c6504/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.android:facebook-core:5.5.1] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/60736eab787961025c3fb979b8b3f45d/jetified-facebook-core-5.5.1/AndroidManifest.xml:21:1-61:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/a228155c89bc835a6ed1ce09495e15c1/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/6fe24ddecc691513cc465d0f618aaf26/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/a24878f7f578309a95aa894f6a555ad6/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/cf6e49f5a0dd21aeef411fe006456377/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/0c4dbed98edd95b91937ee145d9121c4/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/b9e7f96d1f08885e1d48a61a33381e5d/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/d07e19dca3b467391b6fdfd4401c55d9/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/d8722a3d03f1f364c3f543ad132c6bf9/vectordrawable-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/ea8eab16c5baf579f6c4ccb8185dfec9/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/20a02aaab07f8ab287374876207797c8/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/4d5a8bad557e384985bd81fe98be3fc3/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/21d060a0f862e7e3fbc997c0da844fbd/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/edb12e646044c399a007c33b748fe0e4/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/538b1cd6c8dc793006efcdb96a7474d0/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/e61e7dfcc0dface8bab2c90deb0dae7f/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/9f74392bc445bc60b2eda34bd31ab0ec/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/22fa9e4a268482a7c7519634d136b2b1/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/83c1dfba73e12152d8d5ea17dbabb514/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/36fc76d3f4f6985d5737643e8249db84/jetified-gifdecoder-4.9.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/ff2d528b3583cb1da3297d8709ac08c5/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:16.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/ee0fe4b7e9b5128da1578b2ea4af5cc2/jetified-firebase-components-16.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/bb1f7cc47c29565507795235ca9b7e3a/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/f4bdbb9285d0cf4982eab0ba90863e89/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/1357eb4faf7c627ae304cb30e4c5ed85/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/78899fda6126454e27acb77c0fc4779c/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/b9223ed3b60a6fd1072dc7d8b7ba5c14/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/0d296d44d8b0d11bfd0eaec2d857755c/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 INJECTED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 INJECTED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 INJECTED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/debug/AndroidManifest.xml:1:1-7:12
@@ -32,11 +67,11 @@ INJECTED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/debug/A
 		INJECTED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/debug/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:1:1-48:12
+		ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:1:1-54:12
 		INJECTED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/debug/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:1:1-48:12
+		ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:1:1-54:12
 		INJECTED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:1:11-69
@@ -46,102 +81,254 @@ MERGED from [:camera] /Users/seungmin/Flutter/Instagram_clon_2.0/build/camera/in
 MERGED from [:camera] /Users/seungmin/Flutter/Instagram_clon_2.0/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-65
 	android:name
 		ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:3:22-62
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:4:5-80
+	android:name
+		ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:4:22-77
+uses-permission#android.permission.INTERNET
+ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:5:5-66
+MERGED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:5:5-66
+MERGED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:5:5-66
+	android:name
+		ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:9:5-47:19
-MERGED from [androidx.core:core:1.1.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.1.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/3a7eb299570065a3866b140e1a95969b/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/3a7eb299570065a3866b140e1a95969b/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:12:5-52:19
+MERGED from [:firebase_auth] /Users/seungmin/Flutter/Instagram_clon_2.0/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_auth] /Users/seungmin/Flutter/Instagram_clon_2.0/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /Users/seungmin/Flutter/Instagram_clon_2.0/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /Users/seungmin/Flutter/Instagram_clon_2.0/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/194501719757db75aebc39bae85ac153/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/194501719757db75aebc39bae85ac153/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
+MERGED from [com.google.firebase:firebase-auth:19.2.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/1ed960bd305039986d8d57f9511cdda4/jetified-firebase-auth-19.2.0/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:19.2.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/1ed960bd305039986d8d57f9511cdda4/jetified-firebase-auth-19.2.0/AndroidManifest.xml:23:5-40:19
+MERGED from [com.facebook.android:facebook-login:5.5.1] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/60a83bfc9f07c4adaebb5a9725db879b/jetified-facebook-login-5.5.1/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:5.5.1] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/60a83bfc9f07c4adaebb5a9725db879b/jetified-facebook-login-5.5.1/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-common:5.5.1] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/a778ca015ecbfc96c667ca5b263c3b84/jetified-facebook-common-5.5.1/AndroidManifest.xml:28:5-35:19
+MERGED from [com.facebook.android:facebook-common:5.5.1] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/a778ca015ecbfc96c667ca5b263c3b84/jetified-facebook-common-5.5.1/AndroidManifest.xml:28:5-35:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/4ac584c7bc1ce3f4fdd917e8be6a15aa/jetified-firebase-auth-interop-19.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/4ac584c7bc1ce3f4fdd917e8be6a15aa/jetified-firebase-auth-interop-19.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/1af5b6af02d3fca1f2b2724f33c5ae30/jetified-play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/1af5b6af02d3fca1f2b2724f33c5ae30/jetified-play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/e906d9a56743ff9fbb0d065b4fd9606b/jetified-firebase-common-19.3.0/AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/e906d9a56743ff9fbb0d065b4fd9606b/jetified-firebase-common-19.3.0/AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/29202b2c31a2cd79a665408b023447b6/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/29202b2c31a2cd79a665408b023447b6/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/3af823cd3e9c0e385f47a93c9432f50e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/3af823cd3e9c0e385f47a93c9432f50e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.facebook.android:facebook-core:5.5.1] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/60736eab787961025c3fb979b8b3f45d/jetified-facebook-core-5.5.1/AndroidManifest.xml:28:5-59:19
+MERGED from [com.facebook.android:facebook-core:5.5.1] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/60736eab787961025c3fb979b8b3f45d/jetified-facebook-core-5.5.1/AndroidManifest.xml:28:5-59:19
+MERGED from [androidx.core:core:1.1.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/21d060a0f862e7e3fbc997c0da844fbd/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/21d060a0f862e7e3fbc997c0da844fbd/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/83c1dfba73e12152d8d5ea17dbabb514/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/83c1dfba73e12152d8d5ea17dbabb514/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/36fc76d3f4f6985d5737643e8249db84/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/36fc76d3f4f6985d5737643e8249db84/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.1.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.1.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/21d060a0f862e7e3fbc997c0da844fbd/core-1.1.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from [com.facebook.android:facebook-login:5.5.1] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/60a83bfc9f07c4adaebb5a9725db879b/jetified-facebook-login-5.5.1/AndroidManifest.xml:28:18-44
 	android:label
-		ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:11:9-41
+		ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:14:9-41
 	android:icon
-		ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:12:9-43
+		ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:15:9-43
 	android:name
-		ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:10:9-57
+		ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:13:9-57
 activity#com.example.instagram_clon_2.MainActivity
-ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:13:9-41:20
+ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:16:9-44:20
 	android:launchMode
-		ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:15:13-43
+		ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:18:13-43
 	android:hardwareAccelerated
-		ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:18:13-47
+		ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:21:13-47
 	android:windowSoftInputMode
-		ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:19:13-55
+		ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:22:13-55
 	android:configChanges
-		ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:17:13-163
+		ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:20:13-163
 	android:theme
-		ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:16:13-47
+		ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:19:13-47
 	android:name
-		ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:14:13-41
+		ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:17:13-41
 meta-data#io.flutter.embedding.android.NormalTheme
-ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:24:13-27:17
+ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:27:13-30:17
 	android:resource
-		ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:26:15-52
+		ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:29:15-52
 	android:name
-		ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:25:15-70
+		ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:28:15-70
 meta-data#io.flutter.embedding.android.SplashScreenDrawable
-ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:33:13-36:17
+ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:36:13-39:17
 	android:resource
-		ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:35:15-61
+		ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:38:15-61
 	android:name
-		ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:34:15-79
+		ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:37:15-79
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:37:13-40:29
+ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:40:13-43:29
 action#android.intent.action.MAIN
-ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:38:17-68
+ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:41:17-68
 	android:name
-		ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:38:25-66
+		ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:41:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:39:17-76
+ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:42:17-76
 	android:name
-		ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:39:27-74
+		ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:42:27-74
 meta-data#flutterEmbedding
-ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:44:9-46:33
+ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:47:9-49:33
 	android:value
-		ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:46:13-30
+		ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:49:13-30
 	android:name
-		ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:45:13-44
+		ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:48:13-44
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:50:9-107
+	android:value
+		ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:50:66-105
+	android:name
+		ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:50:20-65
+activity#com.facebook.FacebookActivity
+ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:50:108-283
+MERGED from [com.facebook.android:facebook-common:5.5.1] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/a778ca015ecbfc96c667ca5b263c3b84/jetified-facebook-common-5.5.1/AndroidManifest.xml:29:9-32:66
+MERGED from [com.facebook.android:facebook-common:5.5.1] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/a778ca015ecbfc96c667ca5b263c3b84/jetified-facebook-common-5.5.1/AndroidManifest.xml:29:9-32:66
+	android:label
+		ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:50:248-280
+	android:configChanges
+		ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:50:163-247
+	android:theme
+		ADDED from [com.facebook.android:facebook-common:5.5.1] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/a778ca015ecbfc96c667ca5b263c3b84/jetified-facebook-common-5.5.1/AndroidManifest.xml:32:13-63
+	android:name
+		ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:50:118-162
+activity#com.facebook.CustomTabActivity
+ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:50:284-643
+MERGED from [com.facebook.android:facebook-common:5.5.1] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/a778ca015ecbfc96c667ca5b263c3b84/jetified-facebook-common-5.5.1/AndroidManifest.xml:34:9-67
+MERGED from [com.facebook.android:facebook-common:5.5.1] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/a778ca015ecbfc96c667ca5b263c3b84/jetified-facebook-common-5.5.1/AndroidManifest.xml:34:9-67
+	android:exported
+		ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:50:340-363
+	android:name
+		ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:50:294-339
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:@string/fb_login_protocol_scheme
+ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:50:365-631
+action#android.intent.action.VIEW
+ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:50:381-433
+	android:name
+		ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:50:389-430
+category#android.intent.category.DEFAULT
+ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:50:434-493
+	android:name
+		ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:50:444-490
+category#android.intent.category.BROWSABLE
+ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:50:494-555
+	android:name
+		ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:50:504-552
+data
+ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:50:556-614
+	android:scheme
+		ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml:50:562-611
 uses-sdk
 INJECTED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml
-MERGED from [:app_settings] /Users/seungmin/Flutter/Instagram_clon_2.0/build/app_settings/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:app_settings] /Users/seungmin/Flutter/Instagram_clon_2.0/build/app_settings/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:permission_handler] /Users/seungmin/Flutter/Instagram_clon_2.0/build/permission_handler/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:permission_handler] /Users/seungmin/Flutter/Instagram_clon_2.0/build/permission_handler/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:sqflite] /Users/seungmin/Flutter/Instagram_clon_2.0/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:sqflite] /Users/seungmin/Flutter/Instagram_clon_2.0/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_facebook_login] /Users/seungmin/Flutter/Instagram_clon_2.0/build/flutter_facebook_login/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_facebook_login] /Users/seungmin/Flutter/Instagram_clon_2.0/build/flutter_facebook_login/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:local_image_provider] /Users/seungmin/Flutter/Instagram_clon_2.0/build/local_image_provider/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:local_image_provider] /Users/seungmin/Flutter/Instagram_clon_2.0/build/local_image_provider/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:camera] /Users/seungmin/Flutter/Instagram_clon_2.0/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:camera] /Users/seungmin/Flutter/Instagram_clon_2.0/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:path_provider] /Users/seungmin/Flutter/Instagram_clon_2.0/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:path_provider] /Users/seungmin/Flutter/Instagram_clon_2.0/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/0986d0d74b8a2c7da8161f6370fc7744/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/0986d0d74b8a2c7da8161f6370fc7744/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/28d99d5113324aa067757f8ca41a426f/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/28d99d5113324aa067757f8ca41a426f/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/e1bbce6b0d79e8479b70e7bd729bb743/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/e1bbce6b0d79e8479b70e7bd729bb743/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/615cab8ad6393a9c868d48761bbea666/activity-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/615cab8ad6393a9c868d48761bbea666/activity-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/ef0bef029ab70f5fb29de019060cf5fd/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/ef0bef029ab70f5fb29de019060cf5fd/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.1.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.1.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/49ede1f7b9aa322a43288e9745adc2db/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/49ede1f7b9aa322a43288e9745adc2db/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/54d8b8735f730e83f07925f758092af3/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/54d8b8735f730e83f07925f758092af3/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/23edc849475fdda61367cb003f9b9f93/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/23edc849475fdda61367cb003f9b9f93/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/79f9d65ef8b1c716310f666473a689a7/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/79f9d65ef8b1c716310f666473a689a7/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/077300052aa327ee6fc9bbb0ce309b24/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/077300052aa327ee6fc9bbb0ce309b24/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/3a7eb299570065a3866b140e1a95969b/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/3a7eb299570065a3866b140e1a95969b/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/b80fad55c42c418cc210e235056767fb/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/b80fad55c42c418cc210e235056767fb/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [:permission_handler] /Users/seungmin/Flutter/Instagram_clon_2.0/build/permission_handler/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:permission_handler] /Users/seungmin/Flutter/Instagram_clon_2.0/build/permission_handler/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth] /Users/seungmin/Flutter/Instagram_clon_2.0/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth] /Users/seungmin/Flutter/Instagram_clon_2.0/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:app_settings] /Users/seungmin/Flutter/Instagram_clon_2.0/build/app_settings/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:app_settings] /Users/seungmin/Flutter/Instagram_clon_2.0/build/app_settings/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /Users/seungmin/Flutter/Instagram_clon_2.0/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /Users/seungmin/Flutter/Instagram_clon_2.0/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/194501719757db75aebc39bae85ac153/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/194501719757db75aebc39bae85ac153/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-auth:19.2.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/1ed960bd305039986d8d57f9511cdda4/jetified-firebase-auth-19.2.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:19.2.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/1ed960bd305039986d8d57f9511cdda4/jetified-firebase-auth-19.2.0/AndroidManifest.xml:21:5-44
+MERGED from [com.facebook.android:facebook-login:5.5.1] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/60a83bfc9f07c4adaebb5a9725db879b/jetified-facebook-login-5.5.1/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:5.5.1] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/60a83bfc9f07c4adaebb5a9725db879b/jetified-facebook-login-5.5.1/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:5.5.1] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/a778ca015ecbfc96c667ca5b263c3b84/jetified-facebook-common-5.5.1/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:5.5.1] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/a778ca015ecbfc96c667ca5b263c3b84/jetified-facebook-common-5.5.1/AndroidManifest.xml:24:5-26:41
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/08a11306907fa84699584020f584a78a/appcompat-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/08a11306907fa84699584020f584a78a/appcompat-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/4ac584c7bc1ce3f4fdd917e8be6a15aa/jetified-firebase-auth-interop-19.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/4ac584c7bc1ce3f4fdd917e8be6a15aa/jetified-firebase-auth-interop-19.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/1af5b6af02d3fca1f2b2724f33c5ae30/jetified-play-services-base-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/1af5b6af02d3fca1f2b2724f33c5ae30/jetified-play-services-base-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/e906d9a56743ff9fbb0d065b4fd9606b/jetified-firebase-common-19.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/e906d9a56743ff9fbb0d065b4fd9606b/jetified-firebase-common-19.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/29202b2c31a2cd79a665408b023447b6/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/29202b2c31a2cd79a665408b023447b6/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/3af823cd3e9c0e385f47a93c9432f50e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/3af823cd3e9c0e385f47a93c9432f50e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/dcbb27966fafe932bc15ef71536f7373/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/dcbb27966fafe932bc15ef71536f7373/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/a4035522ef1679593e6bb97483e4b833/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/a4035522ef1679593e6bb97483e4b833/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/f8ddd7d8aed44aacfebf3fc260cd0365/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/f8ddd7d8aed44aacfebf3fc260cd0365/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/888df7f4c1ea6b7a237a9de30197e32e/browser-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/888df7f4c1ea6b7a237a9de30197e32e/browser-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/5e721d6076329fe581ac64db530a1288/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/5e721d6076329fe581ac64db530a1288/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/ff5055a7af2f4ea6a34741ea663c6504/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/ff5055a7af2f4ea6a34741ea663c6504/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.android:facebook-core:5.5.1] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/60736eab787961025c3fb979b8b3f45d/jetified-facebook-core-5.5.1/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:5.5.1] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/60736eab787961025c3fb979b8b3f45d/jetified-facebook-core-5.5.1/AndroidManifest.xml:24:5-26:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/a228155c89bc835a6ed1ce09495e15c1/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/a228155c89bc835a6ed1ce09495e15c1/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/6fe24ddecc691513cc465d0f618aaf26/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/6fe24ddecc691513cc465d0f618aaf26/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/a24878f7f578309a95aa894f6a555ad6/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/a24878f7f578309a95aa894f6a555ad6/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/cf6e49f5a0dd21aeef411fe006456377/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/cf6e49f5a0dd21aeef411fe006456377/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/0c4dbed98edd95b91937ee145d9121c4/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/0c4dbed98edd95b91937ee145d9121c4/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/b9e7f96d1f08885e1d48a61a33381e5d/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/b9e7f96d1f08885e1d48a61a33381e5d/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/d07e19dca3b467391b6fdfd4401c55d9/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/d07e19dca3b467391b6fdfd4401c55d9/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/d8722a3d03f1f364c3f543ad132c6bf9/vectordrawable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/d8722a3d03f1f364c3f543ad132c6bf9/vectordrawable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/ea8eab16c5baf579f6c4ccb8185dfec9/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/ea8eab16c5baf579f6c4ccb8185dfec9/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/20a02aaab07f8ab287374876207797c8/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/20a02aaab07f8ab287374876207797c8/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/4d5a8bad557e384985bd81fe98be3fc3/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/4d5a8bad557e384985bd81fe98be3fc3/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/21d060a0f862e7e3fbc997c0da844fbd/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/21d060a0f862e7e3fbc997c0da844fbd/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/edb12e646044c399a007c33b748fe0e4/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/edb12e646044c399a007c33b748fe0e4/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/538b1cd6c8dc793006efcdb96a7474d0/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/538b1cd6c8dc793006efcdb96a7474d0/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/e61e7dfcc0dface8bab2c90deb0dae7f/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/e61e7dfcc0dface8bab2c90deb0dae7f/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/9f74392bc445bc60b2eda34bd31ab0ec/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/9f74392bc445bc60b2eda34bd31ab0ec/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/22fa9e4a268482a7c7519634d136b2b1/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/22fa9e4a268482a7c7519634d136b2b1/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/83c1dfba73e12152d8d5ea17dbabb514/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/83c1dfba73e12152d8d5ea17dbabb514/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/36fc76d3f4f6985d5737643e8249db84/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/36fc76d3f4f6985d5737643e8249db84/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/ff2d528b3583cb1da3297d8709ac08c5/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/ff2d528b3583cb1da3297d8709ac08c5/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:16.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/ee0fe4b7e9b5128da1578b2ea4af5cc2/jetified-firebase-components-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/ee0fe4b7e9b5128da1578b2ea4af5cc2/jetified-firebase-components-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/bb1f7cc47c29565507795235ca9b7e3a/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/bb1f7cc47c29565507795235ca9b7e3a/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/f4bdbb9285d0cf4982eab0ba90863e89/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/f4bdbb9285d0cf4982eab0ba90863e89/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/1357eb4faf7c627ae304cb30e4c5ed85/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/1357eb4faf7c627ae304cb30e4c5ed85/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/78899fda6126454e27acb77c0fc4779c/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/78899fda6126454e27acb77c0fc4779c/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/b9223ed3b60a6fd1072dc7d8b7ba5c14/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/b9223ed3b60a6fd1072dc7d8b7ba5c14/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/0d296d44d8b0d11bfd0eaec2d857755c/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/0d296d44d8b0d11bfd0eaec2d857755c/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 INJECTED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/debug/AndroidManifest.xml
 INJECTED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/debug/AndroidManifest.xml
 	android:targetSdkVersion
@@ -150,11 +337,119 @@ INJECTED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/debug/A
 	android:minSdkVersion
 		INJECTED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/debug/AndroidManifest.xml
-uses-permission#android.permission.INTERNET
-ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/debug/AndroidManifest.xml:6:5-66
-	android:name
-		ADDED from /Users/seungmin/Flutter/Instagram_clon_2.0/android/app/src/debug/AndroidManifest.xml:6:22-64
 uses-permission#android.permission.RECORD_AUDIO
 ADDED from [:camera] /Users/seungmin/Flutter/Instagram_clon_2.0/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-71
 	android:name
 		ADDED from [:camera] /Users/seungmin/Flutter/Instagram_clon_2.0/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-68
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:firebase_auth] /Users/seungmin/Flutter/Instagram_clon_2.0/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /Users/seungmin/Flutter/Instagram_clon_2.0/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /Users/seungmin/Flutter/Instagram_clon_2.0/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [com.google.firebase:firebase-auth:19.2.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/1ed960bd305039986d8d57f9511cdda4/jetified-firebase-auth-19.2.0/AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-auth:19.2.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/1ed960bd305039986d8d57f9511cdda4/jetified-firebase-auth-19.2.0/AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/e906d9a56743ff9fbb0d065b4fd9606b/jetified-firebase-common-19.3.0/AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/e906d9a56743ff9fbb0d065b4fd9606b/jetified-firebase-common-19.3.0/AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/1ed960bd305039986d8d57f9511cdda4/jetified-firebase-auth-19.2.0/AndroidManifest.xml:35:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/e906d9a56743ff9fbb0d065b4fd9606b/jetified-firebase-common-19.3.0/AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/e906d9a56743ff9fbb0d065b4fd9606b/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [:firebase_auth] /Users/seungmin/Flutter/Instagram_clon_2.0/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebaseauth.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_auth] /Users/seungmin/Flutter/Instagram_clon_2.0/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_auth] /Users/seungmin/Flutter/Instagram_clon_2.0/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_auth] /Users/seungmin/Flutter/Instagram_clon_2.0/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-122
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_core] /Users/seungmin/Flutter/Instagram_clon_2.0/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_core] /Users/seungmin/Flutter/Instagram_clon_2.0/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_core] /Users/seungmin/Flutter/Instagram_clon_2.0/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-123
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/1ed960bd305039986d8d57f9511cdda4/jetified-firebase-auth-19.2.0/AndroidManifest.xml:24:9-31:50
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/1ed960bd305039986d8d57f9511cdda4/jetified-firebase-auth-19.2.0/AndroidManifest.xml:26:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/1ed960bd305039986d8d57f9511cdda4/jetified-firebase-auth-19.2.0/AndroidManifest.xml:28:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/1ed960bd305039986d8d57f9511cdda4/jetified-firebase-auth-19.2.0/AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/1ed960bd305039986d8d57f9511cdda4/jetified-firebase-auth-19.2.0/AndroidManifest.xml:29:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/1ed960bd305039986d8d57f9511cdda4/jetified-firebase-auth-19.2.0/AndroidManifest.xml:30:13-72
+	tools:replace
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/1ed960bd305039986d8d57f9511cdda4/jetified-firebase-auth-19.2.0/AndroidManifest.xml:31:13-47
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/1ed960bd305039986d8d57f9511cdda4/jetified-firebase-auth-19.2.0/AndroidManifest.xml:25:13-85
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/1ed960bd305039986d8d57f9511cdda4/jetified-firebase-auth-19.2.0/AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/1ed960bd305039986d8d57f9511cdda4/jetified-firebase-auth-19.2.0/AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/1ed960bd305039986d8d57f9511cdda4/jetified-firebase-auth-19.2.0/AndroidManifest.xml:37:17-109
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-common:5.5.1] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/a778ca015ecbfc96c667ca5b263c3b84/jetified-facebook-common-5.5.1/AndroidManifest.xml:33:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-common:5.5.1] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/a778ca015ecbfc96c667ca5b263c3b84/jetified-facebook-common-5.5.1/AndroidManifest.xml:33:19-68
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/1af5b6af02d3fca1f2b2724f33c5ae30/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/1af5b6af02d3fca1f2b2724f33c5ae30/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/1af5b6af02d3fca1f2b2724f33c5ae30/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/1af5b6af02d3fca1f2b2724f33c5ae30/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/e906d9a56743ff9fbb0d065b4fd9606b/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/e906d9a56743ff9fbb0d065b4fd9606b/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/e906d9a56743ff9fbb0d065b4fd9606b/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/e906d9a56743ff9fbb0d065b4fd9606b/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/e906d9a56743ff9fbb0d065b4fd9606b/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/3af823cd3e9c0e385f47a93c9432f50e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/3af823cd3e9c0e385f47a93c9432f50e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/3af823cd3e9c0e385f47a93c9432f50e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-core:5.5.1] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/60736eab787961025c3fb979b8b3f45d/jetified-facebook-core-5.5.1/AndroidManifest.xml:39:9-42:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-core:5.5.1] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/60736eab787961025c3fb979b8b3f45d/jetified-facebook-core-5.5.1/AndroidManifest.xml:41:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:5.5.1] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/60736eab787961025c3fb979b8b3f45d/jetified-facebook-core-5.5.1/AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:5.5.1] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/60736eab787961025c3fb979b8b3f45d/jetified-facebook-core-5.5.1/AndroidManifest.xml:40:13-70
+receiver#com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+ADDED from [com.facebook.android:facebook-core:5.5.1] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/60736eab787961025c3fb979b8b3f45d/jetified-facebook-core-5.5.1/AndroidManifest.xml:44:9-50:20
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:5.5.1] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/60736eab787961025c3fb979b8b3f45d/jetified-facebook-core-5.5.1/AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:5.5.1] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/60736eab787961025c3fb979b8b3f45d/jetified-facebook-core-5.5.1/AndroidManifest.xml:45:13-86
+intent-filter#action:name:com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:5.5.1] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/60736eab787961025c3fb979b8b3f45d/jetified-facebook-core-5.5.1/AndroidManifest.xml:47:13-49:29
+action#com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:5.5.1] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/60736eab787961025c3fb979b8b3f45d/jetified-facebook-core-5.5.1/AndroidManifest.xml:48:17-95
+	android:name
+		ADDED from [com.facebook.android:facebook-core:5.5.1] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/60736eab787961025c3fb979b8b3f45d/jetified-facebook-core-5.5.1/AndroidManifest.xml:48:25-92
+receiver#com.facebook.CampaignTrackingReceiver
+ADDED from [com.facebook.android:facebook-core:5.5.1] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/60736eab787961025c3fb979b8b3f45d/jetified-facebook-core-5.5.1/AndroidManifest.xml:51:9-58:20
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:5.5.1] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/60736eab787961025c3fb979b8b3f45d/jetified-facebook-core-5.5.1/AndroidManifest.xml:53:13-36
+	android:permission
+		ADDED from [com.facebook.android:facebook-core:5.5.1] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/60736eab787961025c3fb979b8b3f45d/jetified-facebook-core-5.5.1/AndroidManifest.xml:54:13-69
+	android:name
+		ADDED from [com.facebook.android:facebook-core:5.5.1] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/60736eab787961025c3fb979b8b3f45d/jetified-facebook-core-5.5.1/AndroidManifest.xml:52:13-65
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.facebook.android:facebook-core:5.5.1] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/60736eab787961025c3fb979b8b3f45d/jetified-facebook-core-5.5.1/AndroidManifest.xml:55:13-57:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.facebook.android:facebook-core:5.5.1] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/60736eab787961025c3fb979b8b3f45d/jetified-facebook-core-5.5.1/AndroidManifest.xml:56:17-79
+	android:name
+		ADDED from [com.facebook.android:facebook-core:5.5.1] /Users/seungmin/.gradle/caches/transforms-2/files-2.1/60736eab787961025c3fb979b8b3f45d/jetified-facebook-core-5.5.1/AndroidManifest.xml:56:25-76

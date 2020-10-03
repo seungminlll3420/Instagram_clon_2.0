@@ -1,6 +1,11 @@
 # This is a generated file; do not edit or check into version control.
 app_settings=/Users/seungmin/development/flutter/.pub-cache/hosted/pub.dartlang.org/app_settings-4.0.4/
 camera=/Users/seungmin/development/flutter/.pub-cache/hosted/pub.dartlang.org/camera-0.5.8+7/
+firebase_auth=/Users/seungmin/development/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth-0.16.1/
+firebase_auth_web=/Users/seungmin/development/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth_web-0.1.3+1/
+firebase_core=/Users/seungmin/development/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core-0.4.5/
+firebase_core_web=/Users/seungmin/development/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core_web-0.1.1+2/
+flutter_facebook_login=/Users/seungmin/development/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_facebook_login-3.0.0/
 local_image_provider=/Users/seungmin/development/flutter/.pub-cache/hosted/pub.dartlang.org/local_image_provider-2.2.0/
 path_provider=/Users/seungmin/development/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-1.6.18/
 path_provider_linux=/Users/seungmin/development/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_linux-0.0.1+2/

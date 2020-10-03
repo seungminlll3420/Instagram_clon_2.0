@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "573302671791",
+    "firebase_url": "https://instagram-clon-v2.firebaseio.com",
+    "project_id": "instagram-clon-v2",
+    "storage_bucket": "instagram-clon-v2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573302671791:android:d2b74015c56c2f4c67075a",
+        "android_client_info": {
+          "package_name": "com.example.instagram_clon_2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "573302671791-vg438gevkp8o9naqvgqur6qm5q0t5m4l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDK1lbV38TDNVJyHAS5uY4hiat2Mx7thQQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "573302671791-vg438gevkp8o9naqvgqur6qm5q0t5m4l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
