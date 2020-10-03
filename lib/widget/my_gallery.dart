@@ -31,6 +31,7 @@ class _MyGalleryState extends State<MyGallery> {
     return galleryState.images
         .map((localImage) => InkWell(
               onTap: () async {
+                // ignore: deprecated_member_use
                 Uint8List bytes = await localImage.getScaledImageBytes(
                     galleryState.localImageProvider, 0.3);
                 final String timeInMilli =
