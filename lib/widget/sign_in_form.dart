@@ -2,7 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:instagram_clon_2/constants/auth_input_decor.dart';
 import 'package:instagram_clon_2/constants/common_size.dart';
 import 'package:instagram_clon_2/home_page.dart';
+import 'package:instagram_clon_2/model/firebase_auth_state.dart';
 import 'package:instagram_clon_2/widget/or_divider.dart';
+import 'package:provider/provider.dart';
 
 class SignInForm extends StatefulWidget {
   @override
@@ -64,7 +66,10 @@ class _SignInFormState extends State<SignInForm> {
                 },
               ),
               FlatButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Provider.of<FirebaseAuthState>(context, listen: false)
+                        .changeFirebaseAuthStatus(FirebaseAuthStatus.siginIn);
+                  },
                   child: Align(
                     alignment: Alignment.centerRight,
                     child: Text(
@@ -96,9 +101,8 @@ class _SignInFormState extends State<SignInForm> {
     return FlatButton(
       onPressed: () {
         if (_formKey.currentState.validate()) {
-          Navigator.of(context).pushReplacement(MaterialPageRoute(
-            builder: (context) => HomePage(),
-          ));
+          Provider.of<FirebaseAuthState>(context, listen: false).login(context,
+              email: _emailController.text, password: _pwController.text);
         }
       },
       child: Text(
