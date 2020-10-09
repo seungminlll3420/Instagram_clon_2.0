@@ -168,7 +168,7 @@ class _ProfileBodyState extends State<ProfileBody>
         child: OutlineButton(
             onPressed: () {},
             child: Text(
-              '버튼',
+              'Edit Profile',
               style: TextStyle(fontWeight: FontWeight.bold),
             ),
             color: Colors.black45,

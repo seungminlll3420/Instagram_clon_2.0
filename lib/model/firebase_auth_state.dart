@@ -13,7 +13,6 @@ class FirebaseAuthState extends ChangeNotifier {
 
   void watchAuthChanged() {
     _firebaseAuth.onAuthStateChanged.listen((firebaseUser) {
-      print(_firebaseUser.toString());
       if (firebaseUser == null && _firebaseUser == null) {
         changeFirebaseAuthStatus();
         return;
@@ -28,7 +27,6 @@ class FirebaseAuthState extends ChangeNotifier {
     if (firebaseAuthStatus != null) {
       _firebaseAuthStatus = firebaseAuthStatus;
     } else {
-      print(_firebaseUser.uid.toString());
       if (_firebaseUser != null) {
         _firebaseAuthStatus = FirebaseAuthStatus.siginIn;
       } else {

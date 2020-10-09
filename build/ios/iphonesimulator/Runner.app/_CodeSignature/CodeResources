@@ -46,7 +46,7 @@
 		</data>
 		<key>Frameworks/App.framework/App</key>
 		<data>
-		VQWNRQkt/t8/iync8f56cSWSREg=
+		tdPVjUtSbCVlSqL6dxWIGUaQ9Kk=
 		</data>
 		<key>Frameworks/App.framework/Info.plist</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Frameworks/App.framework/_CodeSignature/CodeResources</key>
 		<data>
-		sol8ObOSlvlmIV/KuYWAUMWLrzk=
+		PTOb/EaMvpffp5F1NjI9fYuWoSU=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<data>
@@ -178,7 +178,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/kernel_blob.bin</key>
 		<data>
-		qKbJafxIEa0mGNzMicz2g0wY7jo=
+		HG2TXV5ayImGf/hvAodwkc7WLNA=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -682,7 +682,7 @@
 		</data>
 		<key>Frameworks/app_settings.framework/app_settings</key>
 		<data>
-		nFYtd32JXifkItxO/ik5fBtnXv0=
+		MtWfQa6uZy8YcDvYZPzro8HTsmk=
 		</data>
 		<key>Frameworks/camera.framework/Info.plist</key>
 		<data>
@@ -694,7 +694,7 @@
 		</data>
 		<key>Frameworks/camera.framework/camera</key>
 		<data>
-		bffGa7ZWt53i30PJhhoCSzzruDo=
+		Qjt5VDTS30DmMHojLz7FbtVPQro=
 		</data>
 		<key>Frameworks/libswiftAVFoundation.dylib</key>
 		<data>
@@ -782,7 +782,7 @@
 		</data>
 		<key>Frameworks/local_image_provider.framework/local_image_provider</key>
 		<data>
-		gXrCm7tS2u95V2fq52tHMkMpn4g=
+		RK9gAbAKpxKghLtEVcjLVxU2eM8=
 		</data>
 		<key>Frameworks/nanopb.framework/Info.plist</key>
 		<data>
@@ -806,7 +806,7 @@
 		</data>
 		<key>Frameworks/path_provider.framework/path_provider</key>
 		<data>
-		rfI6NKGuq0spYg9FR3cgSQQkd+8=
+		YNpxqwyEaGbkIdvgRfO4bC2b5W0=
 		</data>
 		<key>Frameworks/sqflite.framework/Info.plist</key>
 		<data>
@@ -818,7 +818,7 @@
 		</data>
 		<key>Frameworks/sqflite.framework/sqflite</key>
 		<data>
-		uMNAIRD+ulHnk5bZoozGlB7n6aw=
+		sc7DQB0kTqo0NGmKeR7SU90vBlc=
 		</data>
 		<key>GoogleService-Info.plist</key>
 		<data>
@@ -909,7 +909,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0BQzKR8srYsKB1p24dMuLnIKydPsj3OWpbq94GKRRJk=
+			7CmuYBWoijD3X2IJyM4nWJdhTN6g69chHj5AgQsdqPc=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/Info.plist</key>
@@ -923,7 +923,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9t64buC6LBmXdwSF3ug9PxA8YqktStHlLBICEK4SbMM=
+			eoUXTX+vk45Peu9+halI3kOcYVGFqarT4WsHJlwVxaI=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
@@ -1133,7 +1133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Kpj1Y22yW76O277LsItebXr8xPWF4HzbNoTyO1voFI4=
+			zuWv+JhSW9l/cLHX26tH6fCqbnqFDMSavkQLyO/e2AU=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
@@ -1718,7 +1718,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1ud/sgJ28r+4b4PxVBDQkgDzUuJBHvzvRrl3l8tjnXU=
+			aq2fzPuw+OezhpSuC1A+g3lbXVk+ZTra9gulTrSs8t8=
 			</data>
 		</dict>
 		<key>Frameworks/camera.framework/Info.plist</key>
@@ -1739,7 +1739,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CzlnL+Bc70z6EV/xv66neiNvn9nMsR0tv6txpwcrTe4=
+			Boz+rFp1AtC1pMkLM2l3WQ0FDH7mZspqUZfy84qprLw=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftAVFoundation.dylib</key>
@@ -1893,7 +1893,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FuXHra7U0qdwGE1U+aW/gwSAyqMqilq88Mx9nkx3RNs=
+			umZZyU1DB1KFAfEzfprfkmQZE9wTSiuUkZuSIE532PU=
 			</data>
 		</dict>
 		<key>Frameworks/nanopb.framework/Info.plist</key>
@@ -1935,7 +1935,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VtR/ZmVp1pPq9VUHjoXnb2aL4FkInUsj69ozBtHNKM4=
+			VpQU+IPDTwtbgaTbHI5nv0KIImjwVxwHc2EvDmaOzPE=
 			</data>
 		</dict>
 		<key>Frameworks/sqflite.framework/Info.plist</key>
@@ -1956,7 +1956,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pCHluWSKYTeEL0wKtK9p1z2BWEp3JcG9U3aAz0aSrn4=
+			+ttudNaXFBqUJ2lgNXyWTBzGsV69aA73amw/E8jTvFI=
 			</data>
 		</dict>
 		<key>GoogleService-Info.plist</key>
