@@ -50,6 +50,24 @@
       "languageVersion": "2.0"
     },
     {
+      "name": "cloud_firestore",
+      "rootUri": "file:///Users/seungmin/development/flutter/.pub-cache/hosted/pub.dartlang.org/cloud_firestore-0.13.7",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "cloud_firestore_platform_interface",
+      "rootUri": "file:///Users/seungmin/development/flutter/.pub-cache/hosted/pub.dartlang.org/cloud_firestore_platform_interface-1.1.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "cloud_firestore_web",
+      "rootUri": "file:///Users/seungmin/development/flutter/.pub-cache/hosted/pub.dartlang.org/cloud_firestore_web-0.1.1+2",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
       "name": "collection",
       "rootUri": "file:///Users/seungmin/development/flutter/.pub-cache/hosted/pub.dartlang.org/collection-1.14.13",
       "packageUri": "lib/",
@@ -416,7 +434,7 @@
       "languageVersion": "2.7"
     }
   ],
-  "generated": "2020-10-03T06:12:38.888329Z",
+  "generated": "2020-10-24T13:09:37.691755Z",
   "generator": "pub",
   "generatorVersion": "2.9.1"
 }
